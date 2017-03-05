@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tannyoky Guns and Ammo</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    <div class="logoScene">
+      <a href="http://www.tannyokyguns.co.uk"><img src="img/logo.png" /></a>
+    </div>
+    <a href="#" class="scene" data-id="0-tannyoky-guns-and-ammo">
+      <li class="text">Tannyoky Guns and Ammo</li>
+    </a>
+    <button class="accordion"><img src="img/shopCircle.png" />Gun Shop</button>
+    <div class="panel">
+      <a href="#" class="scene" data-id="1-shop---clothing-range">
+        <li class="text">Clothing Range</li>
+      </a>
+      
+      <a href="#" class="scene" data-id="2-shop---shooting-accessories">
+        <li class="text">Shooting Accessories</li>
+      </a>
+    </div>
+    <button class="accordion"><img src="img/rangeCircle.png" />Shooting Range</button>
+    <div class="panel">
+      <a href="#" class="scene" data-id="3-shooting-range---down-the-line">
+        <li class="text">Down The Line</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="4-shooting-range---sports-shooting-">
+        <li class="text">Sports Shooting </li>
+      </a>
+    
+      <a href="#" class="scene" data-id="5-shooting-range---skeet-shooting">
+        <li class="text">Skeet Shooting</li>
+      </a>
+    </div>
+
+
+    <button class="accordion"><img src="img/infoCircle.png" />Contact Information</button>
+    <div class="panel">
+
+      <h1>Address</h1>
+      <p>Tannyoky Guns & Ammo
+      <br>19 Ballyreagh Road
+      <br>Poyntzpass
+      <br>Newry
+      <br>BT35 6RQ</p>
+      <h1>Phone</h1>
+      <p>+(44) 28 3831 8308</p>
+      <h1>Email</h1>
+      <p>sales@tannyokyguns.co.uk</p>
+    </div>
+
+
+
+    <a href="https://www.facebook.com/" target="_blank" class="sceneButton sceneButton-1">
+      <img class="icon" src="img/facebookcircle.png">
+    </a>
+
+    <a href="mailto:info@54degreesdesign.com" target="_blank" class="sceneButton sceneButton-2">
+      <img class="icon" src="img/emailcircle.png">
+    </a>
+
+    <a href="tel:004474847986041" target="_blank" class="sceneButton sceneButton-3">
+      <img class="icon" src="img/phonecircle.png">
+    </a>
+
+    <a href="https://powerbi.microsoft.com/en-us/" target="_blank" class="sceneButton sceneButton-4">
+      <img class="icon" src="img/chartCircle.png">
+    </a>
+
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/close.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
