@@ -269,7 +269,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 200px;
   max-height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   margin-left: 0;
   transition: margin-left 0.5s ease-in-out;
 }
