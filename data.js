@@ -298,7 +298,7 @@ var APP_DATA = {
   "name": "Tannyoky Guns and Ammo",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": true
   }
